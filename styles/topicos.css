@@ -37,4 +37,15 @@
     .tópicos__link {
         font-size: 24px;
     }
+
+    .tópicos__item a:active {
+        background-color: rgb(30, 34, 255); /* Cor de fundo quando clicado */
+        color: white; /* Cor do texto branca quando clicado */
+    }
+}
+
+@media screen and (min-width:1728px) {
+    .tópicos {
+        padding: 3em 30vw;
+    }
 }
